@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SalonDBConnection-Web.config Connection String" description="SalonDBConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=DESKTOP-V3OM59N;Initial Catalog=salonDB;Integrated Security=True;TrustServerCertificate=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\AspDotNet-projects\\AnjileeSalonWebApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SalonDBConnection']/@connectionString" />
+  </parameter>
+</parameters>
